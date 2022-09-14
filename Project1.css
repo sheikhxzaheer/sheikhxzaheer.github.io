@@ -63,7 +63,7 @@ section {
     /* height: 100vh; */
     display: grid;
     grid-template-columns: 50% 5% 45%;
-    grid-template-rows: 100vh;
+    grid-template-rows: 10vh 90vh;
     background: linear-gradient(45deg, #1a2d4f, #263859);
 }
 
@@ -89,40 +89,16 @@ nav {
     justify-content: space-between;
 }
 
-#logo {
-    width: 60px;
-}
-
-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background: linear-gradient(145deg, #1a2d4f, #263859);
-    transition: all 0.3s ease-out 0s;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    z-index: 99;
-}
-
 .navul,
 .pul {
     list-style: none;
     padding: 10px;
 }
 
-.ddi {
-    width: 200px;
-}
-
 .nava {
     padding: 20px;
     color: #fff;
     text-decoration: none;
-}
-
-.d-block {
-    width: 200px;
 }
 
 .navul :hover {
@@ -225,7 +201,7 @@ h6 {
 
 .vcontainer {
     /* border: 4px solid red; */
-    padding: 10px;
+    margin: 10px;
 }
 
 .vcards {
@@ -363,5 +339,5 @@ footer {
 .contactimg {
     margin: 50px;
     width: 90%;
-    height: 90%;
-}
+    height: 90%;}
+/* }<link rel="shortcut icon" type="images/png" href="images/Vector 1 (3).svg"> */
