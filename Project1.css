@@ -7,7 +7,51 @@
     scroll-behavior: smooth;
 
 }
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    min-height: 10vh;
+    padding: 0 3rem;
+    width: 100%;
+    transition: 200ms ease-in-out background-color,
+                200ms ease-in-out box-shadow;
+}
 
+.logo {
+    transition: 200ms ease-in-out color,
+}
+
+.nav_links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1.2rem;
+    font-size: 1.1rem;
+    /* text-shadow: 0 0.3rem rgba(0, 0, 0, .6); */
+}
+
+
+.active_nav {
+    background-color: #ffffff;
+    box-shadow: 0 0 .9rem rgba(0, 0, 0, .6);
+    z-index: 99;
+}
+
+.active_nav .nav_links a,
+.active_nav .logo {
+    color: rgb(0, 0, 0);
+
+}
+
+.nav_links :hover {
+    /* background-color: aqua; */
+    color: #ffc107;
+}
+.active_nav .nav_links a:hover {
+    color: #ffc107;
+}
 .scroller {
     width: 100%;
     height: 100%;
@@ -63,14 +107,8 @@ section {
     /* height: 100vh; */
     display: grid;
     grid-template-columns: 50% 5% 45%;
-    grid-template-rows: 10vh 90vh;
+    grid-template-rows: 100vh;
     background: linear-gradient(45deg, #1a2d4f, #263859);
-}
-
-nav,
-.navul {
-    display: flex;
-    align-items: center;
 }
 
 .myname,
@@ -82,30 +120,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
-nav {
-    padding: 0 30px;
-    grid-column: 1/4;
-    justify-content: space-between;
-}
-
-.navul,
 .pul {
     list-style: none;
     padding: 10px;
-}
-
-.nava {
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.navul :hover {
-    color: #ffc107;
-    /* margin-bottom: 3px; */
-    transition: 0.5s ease;
-    transform: translateY(-10%);
 }
 
 .heading {
@@ -135,8 +152,6 @@ h3 {
     padding: 10px 0;
 }
 
-h4 {}
-
 p {
     opacity: 0.8;
     font-size: 14px;
@@ -153,11 +168,13 @@ h6 {
 }
 
 .myimg {
-    height: 90vh;
+    height: 100vh;
+    margin-top: 10vh;
 }
 
 .zaheerimg {
     height: 90vh;
+    bottom: 0px;
 }
 
 .button1,
@@ -339,5 +356,4 @@ footer {
 .contactimg {
     margin: 50px;
     width: 90%;
-    height: 90%;
-}
+    height: 90%;}
