@@ -15,8 +15,8 @@ nav {
     min-height: 10vh;
     padding: 0 3rem;
     width: 100%;
-    transition: 200ms ease-in-out background-color,
-                200ms ease-in-out box-shadow;
+    transition: 250ms ease-in-out background-color,
+                250ms ease-in-out box-shadow;
 }
 
 .logo {
@@ -29,6 +29,7 @@ nav {
     display: inline-block;
     padding: .5rem 1.2rem;
     font-size: 1.1rem;
+    transition: 200ms ease-in-out;
     /* text-shadow: 0 0.3rem rgba(0, 0, 0, .6); */
 }
 
@@ -104,7 +105,7 @@ section {
 
 .home {
     color: #fff;
-    /* height: 100vh; */
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 5% 45%;
     grid-template-rows: 100vh;
@@ -112,20 +113,19 @@ section {
 }
 .socialList{
     margin: 20px 0;
-    /* padding: 10px; */
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .socialIcon{
     margin: 5px;
     box-sizing: border-box;
-    /* padding: 1px; */
     width: 20px;
-    color: #fff;
     transition: 200ms ease-in-out;
 }
-.socialLink{
-    color: #ffc107;
+
+.socialIcon:hover{
+    padding: 2px;
 }
 .myname,
 .buttoncontainer,
@@ -335,6 +335,7 @@ footer {
     padding: 10px 0 0 0;
     font-weight: 500;
     cursor: pointer;
+    transition: 200ms ease-in-out;
 }
 
 .buttonimg {
@@ -361,7 +362,6 @@ footer {
 .footerlink:hover {
     color: #ffc107;
     transform: translateY(-10%);
-    transition: 0.5s ease;
 }
 
 .copyright {
