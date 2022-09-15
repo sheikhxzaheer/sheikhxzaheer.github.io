@@ -198,8 +198,8 @@ h6 {
 
 .button1:hover,
 .button2:hover {
-    background-color: #e6af08eb;
-    transition: 0.5s ease;
+    color: black;
+        border: #fff solid 3px;
     /* border: #212121ba 3px solid; */
 }
 
