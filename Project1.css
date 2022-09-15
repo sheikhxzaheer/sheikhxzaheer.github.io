@@ -14,7 +14,6 @@
         padding: 0px;
 
     }
-
     section.home {
         background-image: url("/images/Group\ 82\ \(2\).svg");
         background-repeat: no-repeat;
@@ -31,7 +30,6 @@
     .button2, .socialIcon  {
         display: none;
     }
-
 }
 
 nav {
@@ -52,20 +50,17 @@ nav {
 
 .nav_links a {
     color: #fff;
-    /* padding: 0 20px; */
     text-decoration: none;
     display: inline-block;
     padding: .5rem 1.2rem;
     font-size: 1.1rem;
     transition: 200ms ease-in-out;
-    /* text-shadow: 0 0.3rem rgba(0, 0, 0, .6); */
 }
 
 
 .active_nav {
     background-color: #ffffff;
     box-shadow: 0 0 .9rem rgba(0, 0, 0, .6);
-    /* padding: 0 50px; */
     z-index: 99;
 }
 
@@ -76,7 +71,6 @@ nav {
 }
 
 .nav_links :hover {
-    /* background-color: aqua; */
     color: #ffc107;
 }
 
@@ -135,7 +129,6 @@ nav {
 
 section {
     background-color: #f4f4f4;
-    /* height: 100vh; */
 }
 
 .home {
