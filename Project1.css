@@ -7,16 +7,43 @@
     scroll-behavior: smooth;
 
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+    body {
+        margin: 0%;
+        padding: 0px;
+
+    }
+
+    section.home {
+        background-image: url("/images/Group\ 82\ \(2\).svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        width: 20px;
+    }
+    nav{
+        padding: 0px;
+    }
+    .myimg,
+    div.myname, .mouse, .nav_links,
+    .button2, .socialIcon  {
+        display: none;
+    }
+
+}
+
 nav {
     display: flex;
     align-items: center;
     position: fixed;
     justify-content: space-between;
     min-height: 10vh;
-    padding: 0 3rem;
     width: 100%;
     transition: 250ms ease-in-out background-color,
-                250ms ease-in-out box-shadow;
+    250ms ease-in-out box-shadow;
+    padding: 0 20px;
 }
 
 .logo {
@@ -25,6 +52,7 @@ nav {
 
 .nav_links a {
     color: #fff;
+    /* padding: 0 20px; */
     text-decoration: none;
     display: inline-block;
     padding: .5rem 1.2rem;
@@ -37,6 +65,7 @@ nav {
 .active_nav {
     background-color: #ffffff;
     box-shadow: 0 0 .9rem rgba(0, 0, 0, .6);
+    /* padding: 0 50px; */
     z-index: 99;
 }
 
@@ -50,9 +79,15 @@ nav {
     /* background-color: aqua; */
     color: #ffc107;
 }
+
 .active_nav .nav_links a:hover {
     color: #ffc107;
 }
+
+.logo {
+    width: 50px;
+}
+
 .scroller {
     width: 100%;
     height: 100%;
@@ -111,22 +146,25 @@ section {
     grid-template-rows: 100vh;
     background: linear-gradient(45deg, #1a2d4f, #263859);
 }
-.socialList{
+
+.socialList {
     margin: 20px 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.socialIcon{
+
+.socialIcon {
     margin: 5px;
     box-sizing: border-box;
     width: 20px;
     transition: 200ms ease-in-out;
 }
 
-.socialIcon:hover{
+.socialIcon:hover {
     padding: 2px;
 }
+
 .myname,
 .buttoncontainer,
 .vcontainer,
@@ -136,6 +174,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 .pul {
     list-style: none;
     padding: 10px;
@@ -188,9 +227,21 @@ h6 {
     margin-top: 10vh;
 }
 
+.myimg2 {
+    height: 80vh;
+    /* margin-top: 10vh; */
+}
+
 .zaheerimg {
-    height: 90vh;
+    height: 90%;
     bottom: 0px;
+    /* width: 100%; */
+}
+
+.zaheerimg2 {
+    height: 100%;
+    bottom: 0px;
+    width: 100%;
 }
 
 .button1,
@@ -215,7 +266,7 @@ h6 {
 .button1:hover,
 .button2:hover {
     color: black;
-        border: #fff solid 3px;
+    border: #fff solid 3px;
     /* border: #212121ba 3px solid; */
 }
 
@@ -269,9 +320,9 @@ h6 {
 }
 
 .npcontainer {
-    width: 200px;
-    height: 50px;
-    padding: 0 20px;
+    width: 150px;
+    height: 40px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -307,6 +358,7 @@ form {
     flex-direction: column;
     border: none;
     border-radius: 10px;
+    /* transition: 200ms ease-in-out; */
 }
 
 footer {
@@ -370,6 +422,7 @@ footer {
 }
 
 .contactimg {
-    margin: 50px;
-    width: 90%;
-    height: 90%;}
+    width: 100%;
+    padding: 0 70px 0px 70px;
+    height: 100%;
+}
