@@ -37,6 +37,9 @@
     .socialIcon {
         display: none;
     }
+    .gif{
+        width: 100px;
+    }
 }
 
 #preloader {
