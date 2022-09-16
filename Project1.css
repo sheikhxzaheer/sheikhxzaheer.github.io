@@ -19,6 +19,7 @@
         background-image: url("/images/Group\ 82\ \(2\).svg");
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
     }
 
     .logo {
@@ -37,24 +38,53 @@
     .socialIcon {
         display: none;
     }
-    .gif{
-        width: 100px;
+
+    section.about {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 50%;
+    }
+
+    div.vcards {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr;
+        margin: 20px 0px;
+    }
+    div.skillcontainer{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 0px;
+        margin: 10px;
+        height: 120px;
+    }
+    div.npcontainer{
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+    }
+    .abouth6{
+        padding: 0px;
+        font-weight: 600;
     }
 }
 
 #preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000;
     height: 100vh;
     width: 100%;
     position: fixed;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 2;
 }
 
 .gif {
-    width: 400px;
+    width: 300px;
 }
 
 nav {
