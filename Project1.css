@@ -14,22 +14,44 @@
         padding: 0px;
 
     }
+
     section.home {
         background-image: url("/images/Group\ 82\ \(2\).svg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .logo {
         width: 20px;
     }
-    nav{
+
+    nav {
         padding: 0px;
     }
+
     .myimg,
-    div.myname, .mouse, .nav_links,
-    .button2, .socialIcon  {
+    div.myname,
+    .mouse,
+    .nav_links,
+    .button2,
+    .socialIcon {
         display: none;
     }
+}
+
+#preloader {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gif {
+    width: 400px;
 }
 
 nav {
@@ -40,7 +62,7 @@ nav {
     min-height: 10vh;
     width: 100%;
     transition: 250ms ease-in-out background-color,
-    250ms ease-in-out box-shadow;
+        250ms ease-in-out box-shadow;
     padding: 0 20px;
 }
 
@@ -129,6 +151,28 @@ nav {
 
 section {
     background-color: #f4f4f4;
+}
+
+.overlay {
+    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+    background-size: 1000px 2px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.overlay {
+    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+    background-size: 1000px 2px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .home {
