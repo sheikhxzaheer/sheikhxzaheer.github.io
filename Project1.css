@@ -113,9 +113,7 @@
     }
 
     input.forminput {
-        /* width: 200px; */
-        width: 100%
-        /* margin: 0px; */
+        width: 86%;
     }
 
     img.contactimg {
