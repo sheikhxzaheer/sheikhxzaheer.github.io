@@ -753,7 +753,7 @@ body {
 .tranding-slide .tranding-slide-img img {
     width: 37rem;
     height: 42rem;
-    border-radius: 2rem;
+    border-radius: 50px;
     padding: 30px;
     object-fit: cover;
 }
