@@ -28,6 +28,7 @@
 
     nav {
         padding: 0px;
+        height: 5vh;
     }
 
     div.socialList {
@@ -113,7 +114,7 @@
 
     input.forminput {
         /* width: 200px; */
-        width: 270px;
+        width: 100%
         /* margin: 0px; */
     }
 
@@ -125,17 +126,7 @@
 
     }
 
-    #preloader {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: linear-gradient(45deg, #1a2d4f, #263859);
-        height: 100vh;
-        width: 100%;
-        position: fixed;
-        z-index: 100;
-    }
-
+    
     div.pcard,
     div.vcard {
         max-width: max-content;
@@ -155,30 +146,57 @@
     }
 
 }
-
+#preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #1a2d4f, #263859);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.span1{
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0;
+    animation: sheikhxzaheer 3s 0.5s ease-in-out ;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes sheikhxzaheer{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 .gif {
     width: 300px;
 }
-
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 10vh;
+    max-height: 10vh;
     padding: 0 3rem;
     position: fixed;
     width: 100%;
     transition: 200ms ease-in-out background-color,
-        200ms ease-in-out box-shadow;
+    200ms ease-in-out box-shadow;
+    z-index: 100;
 }
-
 .nav_links a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
     padding: .5rem 1.2rem;
     font-size: 1.5rem;
+    transform: translateY(10px, 20px);
     /* text-shadow: 0 0 .3rem rgba(0, 0, 0, .6); */
     transition: 200ms ease-in-out background-color,
         200ms ease-in-out color;
@@ -187,13 +205,9 @@ nav {
 .nav_links a:hover {
     color: #ffc107;
 }
-
-
 .active_nav {
     background: linear-gradient(45deg, #1a2d4f, #263859);
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
-    z-index: 100;
-
+    /* box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.9); */
 }
 
 .active_nav .nav_links a,
@@ -202,7 +216,7 @@ nav {
 }
 
 .active_nav .nav_links a:hover {
-    color: #fff;
+    color: #ffc107;
 }
 
 .logo {
@@ -256,28 +270,6 @@ nav {
 
 section {
     background-color: #f4f4f4;
-}
-
-.overlay {
-    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
-    background-size: 1000px 2px;
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.overlay {
-    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
-    background-size: 1000px 2px;
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .home {
@@ -397,9 +389,9 @@ h6 {
 .button2,
 .button3 {
     background-color: #ffc107;
-    padding: 15px 40px;
+    padding: 10px 20px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 15px;
     border: rgb(0, 0, 0) 3px solid;
 }
 
@@ -547,6 +539,7 @@ footer {
     flex-direction: column;
     white-space: pre-line;
     padding: 20px;
+    transform: translateY(20px);
 }
 
 .containerep {
