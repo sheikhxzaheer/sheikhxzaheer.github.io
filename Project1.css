@@ -36,13 +36,32 @@
         align-items: center;
     }
 
+    div.socialList1 {
+        /* margin: 40vh 0 0 0; */
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img.socialIcon1 {
+        width: 15px;
+    }
+
     .myimg,
-    div.myname,
+    div.namehome,
     .mouse,
     .nav_links,
     .button2,
     .food-name {
         display: none;
+    }
+
+    div.myname {
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
     }
 
     div.containerep {
@@ -126,20 +145,24 @@
 
     }
 
-    img.tick{
+    img.tick {
         width: 12px;
     }
+
     div.pcard,
     div.vcard {
         max-width: max-content;
     }
-    .pricep{
+
+    .pricep {
         font-size: 10px;
     }
-    li.pli{
+
+    li.pli {
         font-size: 12px;
     }
-    h1.h1{
+
+    h1.h1 {
         font-size: 30px;
     }
 
@@ -157,6 +180,7 @@
     }
 
 }
+
 #preloader {
     display: flex;
     align-items: center;
@@ -167,28 +191,33 @@
     position: fixed;
     z-index: 100;
 }
-.span1{
+
+.span1 {
     letter-spacing: 4px;
     font-weight: 100;
     font-size: 20px;
     color: #fff;
     opacity: 0;
-    animation: sheikhxzaheer 3s 0.5s ease-in-out ;
+    animation: sheikhxzaheer 3s 0.5s ease-in-out;
     animation-direction: normal;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
 }
-@keyframes sheikhxzaheer{
-    50%{
+
+@keyframes sheikhxzaheer {
+    50% {
         opacity: 1;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
+
 .gif {
     width: 300px;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -198,9 +227,10 @@ nav {
     position: fixed;
     width: 100%;
     transition: 200ms ease-in-out background-color,
-                200ms ease-in-out box-shadow;
+        200ms ease-in-out box-shadow;
     z-index: 100;
 }
+
 .nav_links a {
     color: #fff;
     text-decoration: none;
@@ -209,13 +239,14 @@ nav {
     font-size: 1.5rem;
     transform: translateY(10px, 20px);
     /* text-shadow: 0 0 .3rem rgba(0, 0, 0, .6); */
-        transition: 200ms ease-in-out background-color,
-                    200ms ease-in-out color;
+    transition: 200ms ease-in-out background-color,
+        200ms ease-in-out color;
 }
 
 .nav_links a:hover {
     color: #ffc107;
 }
+
 .active_nav {
     background: linear-gradient(103deg, #1a2d4f, #263859);
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
