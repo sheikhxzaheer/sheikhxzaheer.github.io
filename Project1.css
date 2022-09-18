@@ -217,8 +217,8 @@ nav {
     color: #ffc107;
 }
 .active_nav {
-    background: linear-gradient(45deg, #1a2d4f, #263859);
-    /* box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.9); */
+    background: linear-gradient(103deg, #1a2d4f, #263859);
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
 }
 
 .active_nav .nav_links a,
