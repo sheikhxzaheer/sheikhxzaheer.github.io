@@ -324,13 +324,27 @@ section {
     background: linear-gradient(45deg, #1a2d4f, #263859);
 }
 
+.socialList1 {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
 .socialList {
     margin: 20px 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: row;
 }
 
+.socialIcon1 {
+    margin: 3px;
+    box-sizing: border-box;
+    width: 18px;
+    transition: 200ms ease-in-out;
+}
 .socialIcon {
     margin: 5px;
     box-sizing: border-box;
@@ -338,6 +352,9 @@ section {
     transition: 200ms ease-in-out;
 }
 
+.socialIcon1:hover {
+    padding: 2px;
+}
 .socialIcon:hover {
     padding: 2px;
 }
