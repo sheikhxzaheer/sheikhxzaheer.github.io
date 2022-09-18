@@ -16,7 +16,7 @@
     }
 
     section.home {
-        background-image: url("/images/Group\ 82\ \(2\).svg");
+        background-image: url("/images/Group\ 86.svg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -195,7 +195,7 @@ nav {
     position: fixed;
     width: 100%;
     transition: 200ms ease-in-out background-color,
-    200ms ease-in-out box-shadow;
+                200ms ease-in-out box-shadow;
     z-index: 100;
 }
 .nav_links a {
@@ -206,8 +206,8 @@ nav {
     font-size: 1.5rem;
     transform: translateY(10px, 20px);
     /* text-shadow: 0 0 .3rem rgba(0, 0, 0, .6); */
-    transition: 200ms ease-in-out background-color,
-        200ms ease-in-out color;
+        transition: 200ms ease-in-out background-color,
+                    200ms ease-in-out color;
 }
 
 .nav_links a:hover {
