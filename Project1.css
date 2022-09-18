@@ -102,7 +102,8 @@
         margin: 20px;
     }
 
-    section.portfolio {
+    section.portfolio,
+    .pricing {
         display: none;
     }
 
@@ -125,10 +126,18 @@
 
     }
 
-    
+    img.tick{
+        width: 12px;
+    }
     div.pcard,
     div.vcard {
         max-width: max-content;
+    }
+    .pricep{
+        font-size: 10px;
+    }
+    li.pli{
+        font-size: 12px;
     }
 
     section#tranding {
