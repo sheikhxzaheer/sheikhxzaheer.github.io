@@ -42,9 +42,7 @@
         position: relative;
         /* top: 50px;
         left: 50px; */
-
         z-index: 1;
-
         -webkit-user-select: none;
         user-select: none;
     }
@@ -68,12 +66,9 @@
         position: absolute;
         top: -7px;
         left: -5px;
-
         cursor: pointer;
-
         opacity: 0;
         z-index: 2;
-
         -webkit-touch-callout: none;
     }
 
