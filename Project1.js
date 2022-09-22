@@ -4,15 +4,15 @@ window.addEventListener("load", function () {
 })
 
 
-const nav = document.querySelector('nav');
+// const nav = document.querySelector('nav');
 
-window.addEventListener('scroll', () => {
-    if (window.scrollY >= 50) {
-        nav.classList.add('active_nav');
-    } else {
-        nav.classList.remove('active_nav');
-    }
-})
+// window.addEventListener('scroll', () => {
+//     if (window.scrollY >= 50) {
+//         nav.classList.add('active_nav');
+//     } else {
+//         nav.classList.remove('active_nav');
+//     }
+// })
 
 var TrandingSlider = new Swiper('.tranding-slider', {
     effect: 'coverflow',

@@ -338,7 +338,7 @@ nav {
     width: 100%;
     transition: 200ms ease-in-out background-color,
         200ms ease-in-out box-shadow;
-    z-index: 100;
+    z-index: 99;
 }
 
 .nav_links a {
@@ -357,7 +357,7 @@ nav {
     color: #ffc107;
 }
 
-.active_nav {
+nav {
     background:#1a2d4f;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0);
 }
