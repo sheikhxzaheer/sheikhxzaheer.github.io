@@ -4,6 +4,7 @@ window.addEventListener("load", function () {
 })
 
 
+<<<<<<< HEAD
 // const nav = document.querySelector('nav');
 
 // window.addEventListener('scroll', () => {
@@ -13,6 +14,17 @@ window.addEventListener("load", function () {
 //         nav.classList.remove('active_nav');
 //     }
 // })
+=======
+/*const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 50) {
+        nav.classList.add('active_nav');
+    } else {
+        nav.classList.remove('active_nav');
+    }
+})*/
+>>>>>>> 335396648b70066ab18391a9caca4a514c1684ad
 
 var TrandingSlider = new Swiper('.tranding-slider', {
     effect: 'coverflow',

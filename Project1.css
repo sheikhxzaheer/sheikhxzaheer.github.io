@@ -295,7 +295,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #1a2d4f, #263859);
+    background: #1a2d4f;
     height: 100vh;
     width: 100%;
     position: fixed;
