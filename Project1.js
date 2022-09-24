@@ -36,6 +36,7 @@ var TrandingSlider = new Swiper('.tranding-slider', {
     }
 });
 
+
 function copyToClipboard(element) {
     var $temp = $("<input>");
     $("body").append($temp);
@@ -44,5 +45,12 @@ function copyToClipboard(element) {
     $temp.remove();
     alert("Copied to clipboard");
 }
-
+function payment(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    // document.execCommand("copy");
+    $temp.remove();
+    alert("Payment facility will be added soon");
+}
 
