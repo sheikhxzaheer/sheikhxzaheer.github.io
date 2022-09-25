@@ -1,1 +1,1 @@
-www.sheikhxzaheer.github.io
+sheikhxzaheer.github.io
