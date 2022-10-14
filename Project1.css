@@ -177,7 +177,10 @@
     div.containerep {
         display: none;
     }
+    Img.portimg{
+        border-radius: 10px;
 
+}
     section.about {
         display: grid;
         grid-template-columns: 1fr;
