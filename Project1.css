@@ -8,6 +8,12 @@
 
 }
 
+@media (min-width: 1366px) and (max-width: 3000px) {
+    body{
+        display: none;
+    }
+
+}
 @media (min-width: 600px) and (max-width: 3000px) {
     #menuToggle{
         display: none;
