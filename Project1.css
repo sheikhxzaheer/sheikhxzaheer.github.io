@@ -272,6 +272,9 @@
     div.vcard {
         max-width: max-content;
     }
+    div.pcard{
+        width: 23rem;
+    }
 
     .pricep {
         font-size: 10px;
